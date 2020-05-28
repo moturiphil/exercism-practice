@@ -5,5 +5,4 @@
 
 export const gigasecond = (moment) => {
   return moment.getSeconds() + 10**9;
-  
 };
