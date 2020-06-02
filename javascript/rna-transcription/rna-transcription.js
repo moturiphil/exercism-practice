@@ -3,6 +3,19 @@
 // convenience to get you started writing code faster.
 //
 
-export const toRna = () => {
-  throw new Error("Remove this statement and implement this function");
-};
+export const toRna = (dnaCode) => {
+    switch(dnaCode = ''){
+    case 'G':
+        dnaCode = 'C';
+        break;
+    case 'C':
+        dnaCode = 'G';
+        break;
+    case 'T':
+        dnaCode = 'A';
+        break;
+    case 'A':
+        dnaCode = 'U';
+        break;
+    }
+}
